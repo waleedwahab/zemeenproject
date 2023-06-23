@@ -1,0 +1,11 @@
+.table {
+    width: 90%;
+
+    margin: 20px 0;
+}
+
+.tableOverall {
+    display: flex;
+    justify-content: center;
+
+}

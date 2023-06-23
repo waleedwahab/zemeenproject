@@ -1,0 +1,64 @@
+/* Sell.module.css */
+
+/* Sell container */
+.sell_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Sell item */
+.slick_item {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 300px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Sell item image */
+.slick_item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Sell item location */
+.p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Sell item features */
+.feature {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Sell item feature span */
+.feature span {
+  font-size: 0.9rem;
+}
+
+/* Sell item chat button */
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Sell item chat button hover */
+button:hover {
+  background-color: #0c7cd5;
+}
